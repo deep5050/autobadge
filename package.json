@@ -1,0 +1,37 @@
+{
+  "name": "autobadge",
+  "version": "1.0.0",
+  "description": "simple CLI tool to generate repository badges",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deep5050/autobadge.git"
+  },
+  "keywords": [
+    "badge",
+    "md",
+    "markdown.readme",
+    "doc",
+    "documentation",
+    "document",
+    "git",
+    "repo",
+    "repository"
+  ],
+  "author": "dipankar pal <dipankarpal5050@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/deep5050/autobadge/issues"
+  },
+  "homepage": "https://github.com/deep5050/autobadge#readme",
+  "dependencies": {
+    "conf": "^6.2.4",
+    "qoa": "^0.2.0"
+  },
+  "devDependencies": {
+    "signale": "^1.4.0"
+  }
+}

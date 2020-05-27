@@ -2,10 +2,11 @@
 <a href="https://github.com/deep5050/autobadge"><img src="https://i.imgur.com/WOVfhGT.png"" title="autobadge" /></a>
 
 <h1>AutoBadge</h1>
-<h2> Intaractive . Smart . Efficient</h2>
+
+<h2> Interactive . Smart . Efficient</h2>
 <h3>Simple CLI tool to Generate Essential Repository Badges with Ease.
 It Asks for minimum informtion from the user and produces all (almost) the essential badges.</h3>
-
+<a href="https://github.com/deep5050/autobadge/actions?query=workflow%3Anpm-publish"><img src="https://github.com/deep5050/autobadge/workflows/npm-publish/badge.svg"></a>
 </div>
 
 ## Why use?

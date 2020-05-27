@@ -7,6 +7,7 @@ config.clear();
 
 const shields = "https://img.shields.io";
 const badgen = "https://badgen.net";
+
 const table_header = `| Syntax    |    Badge  |\n| :---      |  :----:  |`;
 
 var get_badge_text = (provider, path, url, alt) => {
@@ -51,8 +52,8 @@ function other_badges() { };
 //-----------------------------------------
 
 function social_badges(user, repo) {
-    var text ="\n## Social Badges\n"
-    text+= table_header;
+    var text = "\n## Social Badges\n"
+    text += table_header;
     var url = `https://github.com/${user}/${repo}`;
 
     var followers = get_badge_text(
@@ -115,10 +116,12 @@ function social_badges(user, repo) {
 function dependency_badges(user, repo) {
 
 }
+
+
 //------------------------------------------
 function version_badges(user, repo) {
     var text = "\n## Version Badges\n";
-    text+=table_header;
+    text += table_header;
     var url = `https://github.com/${user}/${repo}`;
 
     var version = get_badge_text(
@@ -131,10 +134,13 @@ function version_badges(user, repo) {
     text += create_column(version);
     return text;
 }
+
+
+
 //-------------------------------------------
 function activity_badges(user, repo) {
-    var text ="\n## Activity Badges\n";
-    text+=table_header;
+    var text = "\n## Activity Badges\n";
+    text += table_header;
     var url = `https://github.com/${user}/${repo}`;
 
     var commits_per_month = get_badge_text(
@@ -179,10 +185,11 @@ function activity_badges(user, repo) {
     return text;
 }
 
+
 //--------------------------------------------
 
 function license_badges(user, repo) {
-    var text="\n## License Badges";
+    var text = "\n## License Badges";
     text += table_header;
     var url = `https://github.com/${user}/${repo}`;
     var license = get_badge_text(
@@ -192,7 +199,7 @@ function license_badges(user, repo) {
         'License'
     );
     // console.log(license);
-    text+=create_column(license);
+    text += create_column(license);
     return text;
 }
 
@@ -201,13 +208,13 @@ function license_badges(user, repo) {
 //----------------------------------------------------
 
 function size_badges(user, repo) {
-    var text="\n## Size Badges\n";
-    text+=table_header;
+    var text = "\n## Size Badges\n";
+    text += table_header;
 
     var url = `https://github.com/${user}/${repo}`;
     var repo_size = get_badge_text(shields, `/github/repo-size/${user}/${repo}`, url, 'Repo Size');
     // console.log(repo_size);
-    text+=create_column(repo_size);
+    text += create_column(repo_size);
     return text;
 }
 
@@ -215,8 +222,8 @@ function size_badges(user, repo) {
 //----------------------------------------------------
 
 function analysis_badges(user, repo) {
-    var text ="\n## Analysis Badges\n";
-    text+=table_header;
+    var text = "\n## Analysis Badges\n";
+    text += table_header;
     var url = `https://github.com/${user}/${repo}`;
 
     var languages_count = get_badge_text(
@@ -226,7 +233,7 @@ function analysis_badges(user, repo) {
         'Language Count'
     );
     // console.log(languages_count);
-    text+=create_column(languages_count);
+    text += create_column(languages_count);
 
     var top_language = get_badge_text(
         shields,
@@ -235,7 +242,7 @@ function analysis_badges(user, repo) {
         'Top Language'
     );
     // console.log(top_language);
-    text+=create_column(top_language);
+    text += create_column(top_language);
 
     if (config.has('analysis_provider') && config.get('analysis_provider') === 'CodeClimate') {
         var codeclimate_maintain_percent = get_badge_text(
@@ -245,7 +252,7 @@ function analysis_badges(user, repo) {
             'Code Climate maintainability'
         );
         // console.log(codeclimate_maintain_percent);
-        text+=create_column(codeclimate_maintain_percent);
+        text += create_column(codeclimate_maintain_percent);
 
         var codeclimate_issues = get_badge_text(
             shields,
@@ -254,7 +261,7 @@ function analysis_badges(user, repo) {
             "Code Climate Issues"
         );
         // console.log(codeclimate_issues);
-        text+=create_column(codeclimate_issues);
+        text += create_column(codeclimate_issues);
 
     }
     if (config.has('analysis_provider') && config.get('analysis_provider') === 'Codacy') {
@@ -265,7 +272,7 @@ function analysis_badges(user, repo) {
                 url, 'Codacy Grade'
             );
             // console.log(codacy_grade);
-            text+=create_column(codacy_grade);
+            text += create_column(codacy_grade);
         }
     }
     return text;
@@ -275,8 +282,8 @@ function analysis_badges(user, repo) {
 //------------------------------------------
 
 function issues_badges(user, repo) {
-    var text ="\n## Issues Badges\n";
-    text+=table_header;
+    var text = "\n## Issues Badges\n";
+    text += table_header;
     var url = `https://github.com/${user}/${repo}`;
 
 
@@ -287,7 +294,7 @@ function issues_badges(user, repo) {
         "Github Isuues"
     );
     // console.log(issues_raw);
-    text+=create_column(issue_raw);
+    text += create_column(issue_raw);
 
 
 
@@ -298,7 +305,7 @@ function issues_badges(user, repo) {
         "Github closed Isuues"
     );
     // console.log(issues_closed);
-    text+=create_column(issues_closed);
+    text += create_column(issues_closed);
 
 
 
@@ -309,7 +316,7 @@ function issues_badges(user, repo) {
         "Github open PRs"
     );
     // console.log(pr_raw);
-    text+=create_column(pr_raw);
+    text += create_column(pr_raw);
 
 
 
@@ -320,7 +327,7 @@ function issues_badges(user, repo) {
         "Github closed PRs"
     );
     // console.log(pr_closed);
-    text+=create_column(pr_closed);
+    text += create_column(pr_closed);
 
     return text;
 }
@@ -335,12 +342,13 @@ var analyze_inputs = () => {
     const user = config.get('user');
     const repo = config.get('repo');
 
-    
+
     write_stream.write(social_badges(user, repo));
     write_stream.write(size_badges(user, repo));
     write_stream.write(analysis_badges(user, repo));
     write_stream.write(activity_badges(user, repo));
     write_stream.write(version_badges(user, repo));
+    console.log("\x1b[32m","Badges Creation Completed");
 
 }
 
@@ -460,5 +468,5 @@ const interactive_mode = async () => {
 
 
 
- interactive_mode().then(analyze_inputs);
+interactive_mode().then(analyze_inputs);
 // analyze_inputs();

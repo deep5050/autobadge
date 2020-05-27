@@ -1,6 +1,8 @@
 <div align=center>
-<a href="https://github.com/deep5050/autobadge"><img src="https://i.imgur.com/VkXzWG9.png" title="autobadge" /></a>
-<h1>autobadge</h1>
+<a href="https://github.com/deep5050/autobadge"><img src="https://i.imgur.com/WOVfhGT.png"" title="autobadge" /></a>
+
+<h1>AutoBadge</h1>
+<h2> Intaractive . Smart . Efficient</h2>
 <h3>Simple CLI tool to Generate Essential Repository Badges with Ease.
 It Asks for minimum informtion from the user and produces all (almost) the essential badges.</h3>
 
@@ -16,6 +18,8 @@ If you are on an NPM project just run:
 `npm install autobadge -g ` and add `const autobadge = require('autobadge');` to your main script, that's it :zap:
 <div align=center>
 <a href="https://github.com/deep5050/autobadge"><img src="https://i.imgur.com/Qpy9o4Q.png" title="autobadge" /></a>
+
+
 </div>
 
 **Pro Tips:** 
@@ -36,7 +40,8 @@ Create a dedicated directory and run the script everytime to generate badges for
 - [x] Social
 - [x] For-The-Badge
 
-# Result
+# Result (More Comming Soon...)
+
 ## Social Badges
 | Syntax    |    Badge  |
 | :---      |  :----:  |

@@ -38,8 +38,6 @@ Create a dedicated directory and run the script everytime to generate badges for
 
 # Result
 ## Social Badges
-
-## Social Badges
 | Syntax    |    Badge  |
 | :---      |  :----:  |
 | `[![Followers](https://img.shields.io/github/followers/deep5050?style=for-the-badge)](https://github.com/deep5050/autobadge)` | [![Followers](https://img.shields.io/github/followers/deep5050?style=for-the-badge)](https://github.com/deep5050/autobadge)|

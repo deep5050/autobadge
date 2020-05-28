@@ -13,16 +13,21 @@ It Asks For Minimum Informtion From The User And Produces All (Almost) The Essen
 
 </div>
 
+<div align=center>
 
 ## Why use?
 Digging the internet for getting common badges is not a handy way.
-Why not use a script and answer few questions to generate them? Huh?! :sunglasses:
+Why not use a script and answer few questions to generate them? Huh?! 
+
+:sunglasses:
 
 ## How to use?
 Install It Globally :
 
-`npm install -g autobadge` and run `autobadge`, that's it :zap:
-<div align=center>
+Run `npm install -g autobadge` and  `autobadge`, that's it 
+
+:zap:
+
 <a href="https://github.com/deep5050/autobadge"><img src="https://i.imgur.com/sL3yf7x.png" title="autobadge" /></a>
 
 

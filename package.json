@@ -3,9 +3,13 @@
   "version": "1.0.1",
   "description": "simple CLI tool to generate repository badges",
   "main": "index.js",
+  "bin": {
+    "autobadge": "./index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy": "npm publish"
+    "deploy": "npm publish",
+    "lint": "xo --prittier"
   },
   "repository": {
     "type": "git",
@@ -14,13 +18,16 @@
   "keywords": [
     "badge",
     "md",
-    "markdown.readme",
+    "markdown",
+    "readme",
     "doc",
     "documentation",
     "document",
-    "git",
     "repo",
-    "repository"
+    "repository",
+    "badge-generator",
+    "shields",
+    "badgen"
   ],
   "author": "dipankar pal <dipankarpal5050@gmail.com>",
   "license": "MIT",
@@ -28,13 +35,14 @@
     "url": "https://github.com/deep5050/autobadge/issues"
   },
   "homepage": "https://github.com/deep5050/autobadge#readme",
+  "files": [
+    "index.js"
+  ],
   "dependencies": {
     "conf": "^6.2.4",
     "qoa": "^0.2.0"
   },
-  "devDependencies": {
-    "signale": "^1.4.0"
-  },
+  "devDependencies": {},
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/@deep5050"
   }

@@ -42,8 +42,5 @@
     "conf": "^6.2.4",
     "qoa": "^0.2.0"
   },
-  "devDependencies": {},
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/@deep5050"
-  }
+  "devDependencies": {}
 }

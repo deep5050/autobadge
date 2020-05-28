@@ -6,8 +6,8 @@
 <h1>AutoBadge</h1>
 
 <h2> Interactive . Smart . Efficient</h2>
-<h3>A Simple CLI Tool To Generate Essential Repository Badges With Ease.
-It Asks For Minimum Informtion From The User And Produces All (Almost) The Essential Badges.</h3>
+<p>A Simple CLI Tool To Generate Essential Repository Badges With Ease.
+It Asks For Minimum Informtion From The User And Produces All (Almost) The Essential Badges.</p>
 
 <a href="https://github.com/deep5050/autobadge/actions?query=workflow%3Anpm-publish"><img src="https://img.shields.io/github/workflow/status/deep5050/autobadge/npm-publish?label=npm-publish&logo=github&style=for-the-badge"></a>
 
@@ -103,3 +103,11 @@ Run `npm install -g autobadge` and  `autobadge`, that's it
 | Syntax    |    Badge  |
 | :---      |  :----:  |
 | `[![Hit Count](http://hits.dwyl.com/deep5050/autobadge.svg?style=for-the-badge)](https://github.com/deep5050/autobadge)` | [![Hit Count](http://hits.dwyl.com/deep5050/autobadge.svg?style=for-the-badge)](https://github.com/deep5050/autobadge)|
+
+# My Other Works
+<a href="https://github.com/deep5050/qikQR">qikQR : Minimal Cross-Platform QR Code Generator Desktop App </a>
+
+<a href="https://github.com/deep5050/autopy-lot">Autopy-lot: Github Action To Convert jupyter Notebook To Python Script</a>
+
+### MIT (c) 2020 Dipankar Pal
+</div>

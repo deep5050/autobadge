@@ -170,7 +170,6 @@ var ci_cd_badges = (user, repo) => {
     return text;
 }
 
-
 var activity_badges = (user, repo) => {
     var text = "\n## Activity Badges\n";
     text += table_header;

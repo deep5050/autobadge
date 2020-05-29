@@ -11,6 +11,8 @@ It Asks For Minimum Informtion From The User And Produces All (Almost) The Essen
 
 <a href="https://github.com/deep5050/autobadge/actions?query=workflow%3Anpm-publish"><img src="https://img.shields.io/github/workflow/status/deep5050/autobadge/npm-publish?label=npm-publish&logo=github&style=for-the-badge"></a>
 
+
+<a href="https://www.npmjs.com/package/autobadge"><img alt="npm" src="https://img.shields.io/npm/dt/autobadge?color=red&label=INSTALL&logo=npm&style=for-the-badge"></a>
 </div>
 
 <div align=center>

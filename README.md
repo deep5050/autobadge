@@ -1,34 +1,31 @@
 <div align=center>
+  <p align="center"><a href="https://github.com/deep5050/autobadge"><img src="https://i.imgur.com/Dk2OBJa.png" title="AutoBadge"   height="190px" width="190px" /></a></p>
 <a href="https://github.com/deep5050/autobadge"><img src="https://i.imgur.com/vCKdWI5.png" title="autobadge" /></a>
 
 
 
-<h1>AutoBadge</h1>
+<p align="center"> <h1 align="center">AutoBadge</h1></p>
 
-<h2> Interactive . Smart . Efficient</h2>
-<p>A Simple CLI Tool To Generate Essential Repository Badges With Ease.
+<p align="center"><h2 align="center"> Interactive . Smart . Efficient</h2></p>
+<p align="center">A Simple CLI Tool To Generate Essential Repository Badges With Ease.
 It Asks For Minimum Informtion From The User And Produces All (Almost) The Essential Badges.</p>
 
-<a href="https://github.com/deep5050/autobadge/actions?query=workflow%3Anpm-publish"><img src="https://img.shields.io/github/workflow/status/deep5050/autobadge/npm-publish?label=npm-publish&logo=github&style=for-the-badge"></a>
+<p align="center"><a href="https://github.com/deep5050/autobadge/actions?query=workflow%3Anpm-publish"><img src="https://img.shields.io/github/workflow/status/deep5050/autobadge/npm-publish?label=npm-publish&logo=github&style=for-the-badge"></a></p>
 
 
-<a href="https://www.npmjs.com/package/autobadge"><img alt="npm" src="https://img.shields.io/npm/dt/autobadge?color=red&label=INSTALL&logo=npm&style=for-the-badge"></a>
+<p align="center"><a href="https://www.npmjs.com/package/autobadge"><img alt="npm" src="https://img.shields.io/npm/dt/autobadge?color=red&label=INSTALL&logo=npm&style=for-the-badge"></a></p>
 </div>
 
-<div align=center>
+
 
 ## Why use?
 Digging the internet for getting common badges is not a handy way.
-Why not use a script and answer few questions to generate them? Huh?! 
-
-:sunglasses:
+Why not use a script and answer few questions to generate them? Huh?!  :sunglasses:
 
 ## How to use?
 Install It Globally :
 
-Run `npm install -g autobadge` and  `autobadge`, that's it 
-
-:zap:
+Run `npm install -g autobadge` and  `autobadge`, that's it  :zap:
 
 <a href="https://github.com/deep5050/autobadge"><img src="https://i.imgur.com/sL3yf7x.png" title="autobadge" /></a>
 
@@ -112,4 +109,4 @@ Run `npm install -g autobadge` and  `autobadge`, that's it
 <a href="https://github.com/deep5050/autopy-lot">Autopy-lot: Github Action To Convert jupyter Notebook To Python Script</a>
 
 ### MIT (c) 2020 Dipankar Pal
-</div>
+

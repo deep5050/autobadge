@@ -27,7 +27,7 @@ Install It Globally :
 
 Run `npm install -g autobadge` and  `autobadge`, that's it  :zap:
 
-<a href="https://github.com/deep5050/autobadge"><img src="https://i.imgur.com/sL3yf7x.png" title="autobadge" /></a>
+<p align="center"><a href="https://github.com/deep5050/autobadge"><img src="https://i.imgur.com/sL3yf7x.png" title="autobadge" /></a></p>
 
 
 ## Supports

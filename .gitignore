@@ -1,7 +1,9 @@
 .template.md
 node_modules/
-autobadge-flat-square.md
-autobadge-flat.md
-autobadge-plastic.md
-autobadge-for-the-badge.md
-autobadge-social.md
+./autobadge-flat-square.md
+./autobadge-flat.md
+./autobadge-plastic.md
+./autobadge-for-the-badge.md
+./autobadge-social.md
+.vscode/*
+./autobadge-autobadge-for-the-badge.md

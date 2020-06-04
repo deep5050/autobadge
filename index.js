@@ -25,7 +25,7 @@ var get_badge_text = (provider, path, url, alt) => {
     }
 
     if (type === 'HTML') {
-        return `<img alt="${alt}" src="${provider}${path}style=${style}"></img>`;
+        return `<a href="${url}"><img alt="${alt}" src="${provider}${path}style=${style}"/></a>`;
     }
     else if (type === 'MarkDown') {
         return `[![${alt}](${provider}${path}style=${style})](${url})`;
@@ -40,7 +40,7 @@ var make_a_row = (val) => {
 
 
 
-var rating_bages = () => { }
+var rating_badges = () => { }
 
 var other_badges = (user, repo) => {
     var text = "\n## Other Badges\n"
@@ -66,7 +66,7 @@ var social_badges = (user, repo) => {
     var followers = get_badge_text(
         shields,
         `/github/followers/${user}?`,
-        url,
+        `https://github.com/${user}?tab=followers`,
         'Followers'
     );
  
@@ -75,7 +75,7 @@ var social_badges = (user, repo) => {
     var forks = get_badge_text(
         shields,
         `/github/forks/${user}/${repo}?`,
-        url,
+        `https://github.com/${user}/${repo}/network/members`,
         'Forks'
     );
 
@@ -86,7 +86,7 @@ var social_badges = (user, repo) => {
     var stars = get_badge_text(
         shields,
         `/github/stars/${user}/${repo}?`,
-        url,
+        `https://github.com/${user}/${repo}/stargazers`,
         'Stars'
     );
     // console.log(stars);
@@ -96,7 +96,7 @@ var social_badges = (user, repo) => {
     var watchers = get_badge_text(
         shields,
         `/github/watchers/${user}/${repo}?`,
-        url,
+        `https://github.com/${user}/${repo}/watchers`,
         'Watchers'
     );
     //console.log(watchers);
@@ -108,7 +108,7 @@ var social_badges = (user, repo) => {
             var twitter_follow = get_badge_text(
                 shields,
                 `/twitter/follow/${config.get('twitter.id')}?logo=twitter&`,
-                url,
+                `https://twitter.com/${config.get('twitter.id')}`,
                 'Twitter Follow'
             );
             // console.log(twitter_follow);
@@ -119,14 +119,14 @@ var social_badges = (user, repo) => {
 }
 
 var dependency_badges = (user, repo) => {
-
+    var url = `https://github.com/${user}/${repo}/network/dependencies`;
 }
 
 
 var version_badges = (user, repo) => {
     var text = "\n## Version Badges\n";
     text += table_header;
-    var url = `https://github.com/${user}/${repo}`;
+    var url = `https://github.com/${user}/${repo}/releases`;
 
     var version = get_badge_text(
         shields,
@@ -151,7 +151,7 @@ var ci_cd_badges = (user, repo) => {
     var github_workflow = get_badge_text(
         shields,
         `/github/workflow/status/${user}/${repo}/${config.get('github.workflow')}?label=${config.get('github.workflow')}&logo=github&`,
-        url,
+        url+`/actions?query=workflow:${config.get('github.workflow')}`,
         'GitHub Workflow Status'
     );
 
@@ -174,7 +174,7 @@ var ci_cd_badges = (user, repo) => {
 var activity_badges = (user, repo) => {
     var text = "\n## Activity Badges\n";
     text += table_header;
-    var url = `https://github.com/${user}/${repo}`;
+    var url = `https://github.com/${user}/${repo}/graphs/commit-activity`;
 
     var commits_per_month = get_badge_text(
         shields,
@@ -196,20 +196,20 @@ var activity_badges = (user, repo) => {
     text += make_a_row(last_commit);
 
 
-    var relese_date = get_badge_text(
+    var release_date = get_badge_text(
         shields,
         `/github/release-date/${user}/${repo}?`,
-        url,
+        `https://github.com/${user}/${repo}/releases`,
         'Last release date'
     );
-    // console.log(relese_date);
-    text += make_a_row(relese_date);
+    // console.log(release_date);
+    text += make_a_row(release_date);
 
 
     var contributors = get_badge_text(
         shields,
         `/github/contributors/${user}/${repo}?`,
-        url,
+        `https://github.com/${user}/${repo}/graphs/contributors`,
         'Contributors'
     );
     // console.log(contributors);
@@ -221,7 +221,7 @@ var activity_badges = (user, repo) => {
 var license_badges = (user, repo) => {
     var text = "\n## License Badges\n";
     text += table_header;
-    var url = `https://github.com/${user}/${repo}`;
+    var url = `https://github.com/${user}/${repo}/blob/master/LICENSE`;
     var license = get_badge_text(
         shields,
         `/github/license/${user}/${repo}?`,
@@ -310,14 +310,14 @@ var analysis_badges = (user, repo) => {
 var issues_badges = (user, repo) => {
     var text = "\n## Issues Badges\n";
     text += table_header;
-    var url = `https://github.com/${user}/${repo}`;
+    var url = `https://github.com/${user}/${repo}/issues`;
 
 
     var issue_raw = get_badge_text(
         shields,
         `/github/issues-raw/${user}/${repo}?`,
         url,
-        "Github Isuues"
+        "Github Issues"
     );
     // console.log(issues_raw);
     text += make_a_row(issue_raw);
@@ -327,8 +327,8 @@ var issues_badges = (user, repo) => {
     var issues_closed = get_badge_text(
         shields,
         `/github/issues-closed/${user}/${repo}?`,
-        url,
-        "Github closed Isuues"
+        `https://github.com/${user}/${repo}/issues?q=is%3Aissue+is%3Aclosed`,
+        "Github closed Issues"
     );
     // console.log(issues_closed);
     text += make_a_row(issues_closed);
@@ -338,7 +338,7 @@ var issues_badges = (user, repo) => {
     var pr_raw = get_badge_text(
         shields,
         `/github/issues-pr-raw/${user}/${repo}?`,
-        url,
+        `https://github.com/${user}/${repo}/pulls`,
         "Github open PRs"
     );
     // console.log(pr_raw);
@@ -349,7 +349,7 @@ var issues_badges = (user, repo) => {
     var pr_closed = get_badge_text(
         shields,
         `/github/issues-pr-closed/${user}/${repo}?`,
-        url,
+        `https://github.com/${user}/${repo}/pulls?q=is%3Apr+is%3Aclosed`,
         "Github closed PRs"
     );
     // console.log(pr_closed);

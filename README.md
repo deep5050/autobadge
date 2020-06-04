@@ -7,8 +7,8 @@
 <p align="center"> <h1 align="center">AutoBadge</h1></p>
 
 <p align="center"><h2 align="center"> Interactive . Smart . Efficient</h2></p>
-<p align="center">A Simple CLI Tool To Generate Essential Repository Badges With Ease.
-It Asks For Minimum Informtion From The User And Produces All (Almost) The Essential Badges.</p>
+<p align="center">A Simple Cli Tool To Generate Essential Repository Badges With Ease.
+It Asks For Minimum Information From The User And Produces All (Almost) The Essential Badges</p>
 
 <p align="center"><a href="https://github.com/deep5050/autobadge/actions?query=workflow%3Anpm-publish"><img src="https://img.shields.io/github/workflow/status/deep5050/autobadge/npm-publish?label=npm-publish&logo=github&style=for-the-badge"></a></p>
 
@@ -19,13 +19,13 @@ It Asks For Minimum Informtion From The User And Produces All (Almost) The Essen
 
 
 ## Why use?
-Digging the internet for getting common badges is not a handy way.
-Why not use a script and answer few questions to generate them? Huh?!  :sunglasses:
+Digging The Internet For Getting Common Badges Is Not A Handy Way.
+Why Not Use A Script And Answer Few Questions To Generate Them? Huh?!  :sunglasses:
 
 ## How to use?
 Install It Globally :
 
-Run `npm install -g autobadge` and  `autobadge`, that's it  :zap:
+Run `npm install -g autobadge` and  `autobadge`, That'S It  :zap:
 
 <p align="center"><a href="https://github.com/deep5050/autobadge"><img src="https://i.imgur.com/sL3yf7x.png" title="autobadge" /></a></p>
 
@@ -34,8 +34,6 @@ Run `npm install -g autobadge` and  `autobadge`, that's it  :zap:
 - [x] MarkDown
 - [x] HTML
 - [x] Shields Badges
-- [ ] Badgen Badges
-- [ ] ForTheBadge Badges
 
 ## Style
 - [x] Flat
@@ -44,69 +42,79 @@ Run `npm install -g autobadge` and  `autobadge`, that's it  :zap:
 - [x] Social
 - [x] For-The-Badge
 
-# Result (More Comming Soon...)
+## What's New in 1.3.1?
+- [x] Clickable Badge When In HTML Format
+- [x] Separate URLs For Each badges
+
+## TODO
+- [ ] HTML Alignment Support
+- [ ] Ad Shields Badges
+- [ ] Badgen Badges
+- [ ] ForTheBadge Badges
+
+## Result (More Coming Soon....)
 
 ## License Badges
 
 | Syntax    |    Badge  |
 | :---      |  :----:  |
-| `[![License](https://img.shields.io/github/license/deep5050/autobadge?style=for-the-badge)](https://github.com/deep5050/autobadge)` | [![License](https://img.shields.io/github/license/deep5050/autobadge?style=for-the-badge)](https://github.com/deep5050/autobadge)|
+| `<a href="https://github.com/deep5050/autobadge/blob/master/LICENSE"><img alt="License" src="https://img.shields.io/github/license/deep5050/autobadge?style=for-the-badge"/></a>` | <a href="https://github.com/deep5050/autobadge/blob/master/LICENSE"><img alt="License" src="https://img.shields.io/github/license/deep5050/autobadge?style=for-the-badge"/></a>|
 ## Social Badges
 
 | Syntax    |    Badge  |
 | :---      |  :----:  |
-| `[![Followers](https://img.shields.io/github/followers/deep5050?style=for-the-badge)](https://github.com/deep5050/autobadge)` | [![Followers](https://img.shields.io/github/followers/deep5050?style=for-the-badge)](https://github.com/deep5050/autobadge)|
-| `[![Forks](https://img.shields.io/github/forks/deep5050/autobadge?style=for-the-badge)](https://github.com/deep5050/autobadge)` | [![Forks](https://img.shields.io/github/forks/deep5050/autobadge?style=for-the-badge)](https://github.com/deep5050/autobadge)|
-| `[![Stars](https://img.shields.io/github/stars/deep5050/autobadge?style=for-the-badge)](https://github.com/deep5050/autobadge)` | [![Stars](https://img.shields.io/github/stars/deep5050/autobadge?style=for-the-badge)](https://github.com/deep5050/autobadge)|
-| `[![Watchers](https://img.shields.io/github/watchers/deep5050/autobadge?style=for-the-badge)](https://github.com/deep5050/autobadge)` | [![Watchers](https://img.shields.io/github/watchers/deep5050/autobadge?style=for-the-badge)](https://github.com/deep5050/autobadge)|
-| `[![Twitter Follow](https://img.shields.io/twitter/follow/deep5050?logo=twitter&style=for-the-badge)](https://github.com/deep5050/autobadge)` | [![Twitter Follow](https://img.shields.io/twitter/follow/deep5050?logo=twitter&style=for-the-badge)](https://github.com/deep5050/autobadge)|
+| `<a href="https://github.com/deep5050?tab=followers"><img alt="Followers" src="https://img.shields.io/github/followers/deep5050?style=for-the-badge"/></a>` | <a href="https://github.com/deep5050?tab=followers"><img alt="Followers" src="https://img.shields.io/github/followers/deep5050?style=for-the-badge"/></a>|
+| `<a href="https://github.com/deep5050/autobadge/network/members"><img alt="Forks" src="https://img.shields.io/github/forks/deep5050/autobadge?style=for-the-badge"/></a>` | <a href="https://github.com/deep5050/autobadge/network/members"><img alt="Forks" src="https://img.shields.io/github/forks/deep5050/autobadge?style=for-the-badge"/></a>|
+| `<a href="https://github.com/deep5050/autobadge/stargazers"><img alt="Stars" src="https://img.shields.io/github/stars/deep5050/autobadge?style=for-the-badge"/></a>` | <a href="https://github.com/deep5050/autobadge/stargazers"><img alt="Stars" src="https://img.shields.io/github/stars/deep5050/autobadge?style=for-the-badge"/></a>|
+| `<a href="https://github.com/deep5050/autobadge/watchers"><img alt="Watchers" src="https://img.shields.io/github/watchers/deep5050/autobadge?style=for-the-badge"/></a>` | <a href="https://github.com/deep5050/autobadge/watchers"><img alt="Watchers" src="https://img.shields.io/github/watchers/deep5050/autobadge?style=for-the-badge"/></a>|
+| `<a href="https://twitter.com/dipankar5050"><img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/dipankar5050?logo=twitter&style=for-the-badge"/></a>` | <a href="https://twitter.com/dipankar5050"><img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/dipankar5050?logo=twitter&style=for-the-badge"/></a>|
 ## Size Badges
 
 | Syntax    |    Badge  |
 | :---      |  :----:  |
-| `[![Repo Size](https://img.shields.io/github/repo-size/deep5050/autobadge?style=for-the-badge)](https://github.com/deep5050/autobadge)` | [![Repo Size](https://img.shields.io/github/repo-size/deep5050/autobadge?style=for-the-badge)](https://github.com/deep5050/autobadge)|
+| `<a href="https://github.com/deep5050/autobadge"><img alt="Repo Size" src="https://img.shields.io/github/repo-size/deep5050/autobadge?style=for-the-badge"/></a>` | <a href="https://github.com/deep5050/autobadge"><img alt="Repo Size" src="https://img.shields.io/github/repo-size/deep5050/autobadge?style=for-the-badge"/></a>|
 ## Issues Badges
 
 | Syntax    |    Badge  |
 | :---      |  :----:  |
-| `[![Github Isuues](https://img.shields.io/github/issues-raw/deep5050/autobadge?style=for-the-badge)](https://github.com/deep5050/autobadge)` | [![Github Isuues](https://img.shields.io/github/issues-raw/deep5050/autobadge?style=for-the-badge)](https://github.com/deep5050/autobadge)|
-| `[![Github closed Isuues](https://img.shields.io/github/issues-closed/deep5050/autobadge?style=for-the-badge)](https://github.com/deep5050/autobadge)` | [![Github closed Isuues](https://img.shields.io/github/issues-closed/deep5050/autobadge?style=for-the-badge)](https://github.com/deep5050/autobadge)|
-| `[![Github open PRs](https://img.shields.io/github/issues-pr-raw/deep5050/autobadge?style=for-the-badge)](https://github.com/deep5050/autobadge)` | [![Github open PRs](https://img.shields.io/github/issues-pr-raw/deep5050/autobadge?style=for-the-badge)](https://github.com/deep5050/autobadge)|
-| `[![Github closed PRs](https://img.shields.io/github/issues-pr-closed/deep5050/autobadge?style=for-the-badge)](https://github.com/deep5050/autobadge)` | [![Github closed PRs](https://img.shields.io/github/issues-pr-closed/deep5050/autobadge?style=for-the-badge)](https://github.com/deep5050/autobadge)|
+| `<a href="https://github.com/deep5050/autobadge/issues"><img alt="Github Issues" src="https://img.shields.io/github/issues-raw/deep5050/autobadge?style=for-the-badge"/></a>` | <a href="https://github.com/deep5050/autobadge/issues"><img alt="Github Issues" src="https://img.shields.io/github/issues-raw/deep5050/autobadge?style=for-the-badge"/></a>|
+| `<a href="https://github.com/deep5050/autobadge/issues?q=is%3Aissue+is%3Aclosed"><img alt="Github closed Issues" src="https://img.shields.io/github/issues-closed/deep5050/autobadge?style=for-the-badge"/></a>` | <a href="https://github.com/deep5050/autobadge/issues?q=is%3Aissue+is%3Aclosed"><img alt="Github closed Issues" src="https://img.shields.io/github/issues-closed/deep5050/autobadge?style=for-the-badge"/></a>|
+| `<a href="https://github.com/deep5050/autobadge/pulls"><img alt="Github open PRs" src="https://img.shields.io/github/issues-pr-raw/deep5050/autobadge?style=for-the-badge"/></a>` | <a href="https://github.com/deep5050/autobadge/pulls"><img alt="Github open PRs" src="https://img.shields.io/github/issues-pr-raw/deep5050/autobadge?style=for-the-badge"/></a>|
+| `<a href="https://github.com/deep5050/autobadge/pulls?q=is%3Apr+is%3Aclosed"><img alt="Github closed PRs" src="https://img.shields.io/github/issues-pr-closed/deep5050/autobadge?style=for-the-badge"/></a>` | <a href="https://github.com/deep5050/autobadge/pulls?q=is%3Apr+is%3Aclosed"><img alt="Github closed PRs" src="https://img.shields.io/github/issues-pr-closed/deep5050/autobadge?style=for-the-badge"/></a>|
 ## Analysis Badges
 
 | Syntax    |    Badge  |
 | :---      |  :----:  |
-| `[![Language Count](https://img.shields.io/github/languages/count/deep5050/autobadge?style=for-the-badge)](https://github.com/deep5050/autobadge)` | [![Language Count](https://img.shields.io/github/languages/count/deep5050/autobadge?style=for-the-badge)](https://github.com/deep5050/autobadge)|
-| `[![Top Language](https://img.shields.io/github/languages/top/deep5050/autobadge?style=for-the-badge)](https://github.com/deep5050/autobadge)` | [![Top Language](https://img.shields.io/github/languages/top/deep5050/autobadge?style=for-the-badge)](https://github.com/deep5050/autobadge)|
+| `<a href="https://github.com/deep5050/autobadge"><img alt="Language Count" src="https://img.shields.io/github/languages/count/deep5050/autobadge?style=for-the-badge"/></a>` | <a href="https://github.com/deep5050/autobadge"><img alt="Language Count" src="https://img.shields.io/github/languages/count/deep5050/autobadge?style=for-the-badge"/></a>|
+| `<a href="https://github.com/deep5050/autobadge"><img alt="Top Language" src="https://img.shields.io/github/languages/top/deep5050/autobadge?style=for-the-badge"/></a>` | <a href="https://github.com/deep5050/autobadge"><img alt="Top Language" src="https://img.shields.io/github/languages/top/deep5050/autobadge?style=for-the-badge"/></a>|
 ## Activity Badges
 
 | Syntax    |    Badge  |
 | :---      |  :----:  |
-| `[![Commits/month](https://img.shields.io/github/commit-activity/m/deep5050/autobadge?style=for-the-badge)](https://github.com/deep5050/autobadge)` | [![Commits/month](https://img.shields.io/github/commit-activity/m/deep5050/autobadge?style=for-the-badge)](https://github.com/deep5050/autobadge)|
-| `[![Last Commit](https://img.shields.io/github/last-commit/deep5050/autobadge?style=for-the-badge)](https://github.com/deep5050/autobadge)` | [![Last Commit](https://img.shields.io/github/last-commit/deep5050/autobadge?style=for-the-badge)](https://github.com/deep5050/autobadge)|
-| `[![Last release date](https://img.shields.io/github/release-date/deep5050/autobadge?style=for-the-badge)](https://github.com/deep5050/autobadge)` | [![Last release date](https://img.shields.io/github/release-date/deep5050/autobadge?style=for-the-badge)](https://github.com/deep5050/autobadge)|
-| `[![Contributors](https://img.shields.io/github/contributors/deep5050/autobadge?style=for-the-badge)](https://github.com/deep5050/autobadge)` | [![Contributors](https://img.shields.io/github/contributors/deep5050/autobadge?style=for-the-badge)](https://github.com/deep5050/autobadge)|
+| `<a href="https://github.com/deep5050/autobadge/graphs/commit-activity"><img alt="Commits/month" src="https://img.shields.io/github/commit-activity/m/deep5050/autobadge?style=for-the-badge"/></a>` | <a href="https://github.com/deep5050/autobadge/graphs/commit-activity"><img alt="Commits/month" src="https://img.shields.io/github/commit-activity/m/deep5050/autobadge?style=for-the-badge"/></a>|
+| `<a href="https://github.com/deep5050/autobadge/graphs/commit-activity"><img alt="Last Commit" src="https://img.shields.io/github/last-commit/deep5050/autobadge?style=for-the-badge"/></a>` | <a href="https://github.com/deep5050/autobadge/graphs/commit-activity"><img alt="Last Commit" src="https://img.shields.io/github/last-commit/deep5050/autobadge?style=for-the-badge"/></a>|
+| `<a href="https://github.com/deep5050/autobadge/releases"><img alt="Last release date" src="https://img.shields.io/github/release-date/deep5050/autobadge?style=for-the-badge"/></a>` | <a href="https://github.com/deep5050/autobadge/releases"><img alt="Last release date" src="https://img.shields.io/github/release-date/deep5050/autobadge?style=for-the-badge"/></a>|
+| `<a href="https://github.com/deep5050/autobadge/graphs/contributors"><img alt="Contributors" src="https://img.shields.io/github/contributors/deep5050/autobadge?style=for-the-badge"/></a>` | <a href="https://github.com/deep5050/autobadge/graphs/contributors"><img alt="Contributors" src="https://img.shields.io/github/contributors/deep5050/autobadge?style=for-the-badge"/></a>|
 ## Version Badges
 
 | Syntax    |    Badge  |
 | :---      |  :----:  |
-| `[![Release Version](https://img.shields.io/github/v/release/deep5050/autobadge?style=for-the-badge)](https://github.com/deep5050/autobadge)` | [![Release Version](https://img.shields.io/github/v/release/deep5050/autobadge?style=for-the-badge)](https://github.com/deep5050/autobadge)|
+| `<a href="https://github.com/deep5050/autobadge/releases"><img alt="Release Version" src="https://img.shields.io/github/v/release/deep5050/autobadge?style=for-the-badge"/></a>` | <a href="https://github.com/deep5050/autobadge/releases"><img alt="Release Version" src="https://img.shields.io/github/v/release/deep5050/autobadge?style=for-the-badge"/></a>|
 ## CI/CD Badges
 
 | Syntax    |    Badge  |
 | :---      |  :----:  |
-| `[![GitHub Workflow Status](https://img.shields.io/github/workflow/status/deep5050/autobadge/npm-publish?label=npm-publish&logo=github&style=for-the-badge)](https://github.com/deep5050/autobadge)` | [![GitHub Workflow Status](https://img.shields.io/github/workflow/status/deep5050/autobadge/npm-publish?label=npm-publish&logo=github&style=for-the-badge)](https://github.com/deep5050/autobadge)|
+| `<a href="https://github.com/deep5050/autobadge/actions?query=workflow:npm-publish"><img alt="GitHub Workflow Status" src="https://img.shields.io/github/workflow/status/deep5050/autobadge/npm-publish?label=npm-publish&logo=github&style=for-the-badge"/></a>` | <a href="https://github.com/deep5050/autobadge/actions?query=workflow:npm-publish"><img alt="GitHub Workflow Status" src="https://img.shields.io/github/workflow/status/deep5050/autobadge/npm-publish?label=npm-publish&logo=github&style=for-the-badge"/></a>|
 ## Other Badges
 
 | Syntax    |    Badge  |
 | :---      |  :----:  |
-| `[![Hit Count](http://hits.dwyl.com/deep5050/autobadge.svg?style=for-the-badge)](https://github.com/deep5050/autobadge)` | [![Hit Count](http://hits.dwyl.com/deep5050/autobadge.svg?style=for-the-badge)](https://github.com/deep5050/autobadge)|
+| `<a href="https://github.com/deep5050/autobadge"><img alt="Hit Count" src="http://hits.dwyl.com/deep5050/autobadge.svg?style=for-the-badge"/></a>` | <a href="https://github.com/deep5050/autobadge"><img alt="Hit Count" src="http://hits.dwyl.com/deep5050/autobadge.svg?style=for-the-badge"/></a>|
 
 # My Other Works
 <a href="https://github.com/deep5050/qikQR">qikQR : Minimal Cross-Platform QR Code Generator Desktop App </a>
 
-<a href="https://github.com/deep5050/autopy-lot">Autopy-lot: Github Action To Convert jupyter Notebook To Python Script</a>
+<a href="https://github.com/deep5050/autopy-lot">Autopy-Lot: Github Action To Convert Jupyter Notebook To Python Script</a>
 
 ### MIT (c) 2020 Dipankar Pal
 

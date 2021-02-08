@@ -40,7 +40,7 @@
     "index.js"
   ],
   "dependencies": {
-    "conf": "^6.2.4",
+    "conf": "^9.0.1",
     "qoa": "^0.2.0"
   },
   "devDependencies": {}

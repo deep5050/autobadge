@@ -5,8 +5,8 @@
 <p align="center"> <h1 align="center">AutoBadge</h1></p>
 
 <p align="center"><h2 align="center"> Interactive . Smart . Efficient</h2></p>
-<p align="center">A Simple Cli Tool To Generate Essential Repository Badges With Ease.
-It Asks For Minimum Information From The User And Produces All (Almost) The Essential Badges</p>
+<p align="center">A simple CLI tool to generate essential repository badges with ease.
+It asks for minimum information from the user and produces all (almost) the essential badges</p>
 
 <p align="center"><a href="https://github.com/deep5050/autobadge/actions?query=workflow%3Anpm-publish"><img src="https://img.shields.io/github/workflow/status/deep5050/autobadge/npm-publish?label=npm-publish&logo=github&style=for-the-badge"></a></p>
 

@@ -15,14 +15,14 @@ It asks for minimum information from the user and produces all (almost) the esse
 
 ## Why use?
 
-Digging The Internet For Getting Common Badges Is Not A Handy Way. Why Not Use A
-Script And Answer Few Questions To Generate Them? Huh?! :sunglasses:
+Digging the internet for getting common badges is not a handy way. Why not use a
+script and answer few questions to generate them? Huh?! :sunglasses:
 
 ## How to use?
 
-Install It Globally :
+Install it globally :
 
-Run `npm install -g autobadge` and `autobadge`, That'S It :zap:
+Run `npm install -g autobadge` and `autobadge`, that'S it :zap:
 
 <p align="center"><a href="https://github.com/deep5050/autobadge"><img src="https://i.imgur.com/sL3yf7x.png" title="autobadge" /></a></p>
 
@@ -42,15 +42,15 @@ Run `npm install -g autobadge` and `autobadge`, That'S It :zap:
 
 ## What's New in 1.3.1?
 
-- [x] Clickable Badge When In HTML Format
-- [x] Separate URLs For Each badges
+- [x] Clickable badge when in HTML format
+- [x] Separate URLs for each badges
 
 ## TODO
 
-- [ ] HTML Alignment Support
-- [ ] Ad Shields Badges
-- [ ] Badgen Badges
-- [ ] ForTheBadge Badges
+- [ ] HTML alignment support
+- [ ] Ad shields badges
+- [ ] Badgen badges
+- [ ] ForTheBadge badges
 
 ## Result (More Coming Soon....)
 
